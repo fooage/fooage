@@ -1,0 +1,31 @@
+title: 被遗忘的时间分支
+author: fooage
+email: nullptr.wang@gmail.com
+description: > # This ">" is ignore newlines until the next things.
+  This is my personal blog, which records useful and fun things in my life.
+show_excerpts: true # Set to show the excerpts on the homepage.
+
+sass:
+  # This is the style sheet file path that applied to the blog.
+  sass_dir: _sass
+
+plainwhite:
+  # Set the name of this blog.
+  name: fooage
+  # Write a motto to summarize.
+  tagline: 温两碗酒 要一碟茴香豆
+  # The date format which these pages used.
+  date_format: '%b %-d, %Y'
+  # Set to true to enable searchbar.
+  search: true
+  # Path from the base directory of avatar.
+  portfolio_image: 'assets/portfolio.png'
+  # Set the language of the tag for the pages.
+  html_lang: 'zh-CN'
+  # List of links to social networking sites.
+  social_links:
+    # If you want more social network links, you need to add them here and add sentences in the file to build it.
+    github: fooage
+
+# This topic is very brief and bright, and I am very grateful to the author samarsault for his silent contribution.
+theme: plainwhite
