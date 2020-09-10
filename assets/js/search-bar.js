@@ -1,3 +1,6 @@
+---
+---
+
 // This has been implemented, but some formatted articles will invalidate the search. The reason is currently unknown,
 // and is currently found that the premature appearance of code snippets in the article may cause the error.
 window.onload = function () {
