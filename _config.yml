@@ -13,7 +13,7 @@ plainwhite:
   # Set the name of this blog.
   name: fooage
   # Write a motto to summarize.
-  tagline: 温两碗酒 要一碟茴香豆
+  tagline: 温两碗酒，要一碟茴香豆
   # The date format which these pages used.
   date_format: '%b %-d, %Y'
   # Set to true to enable searchbar.
