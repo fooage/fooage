@@ -22,7 +22,7 @@ categories: JavaScript
 ```javascript
 // 关键字加上正常的命名方式
 function add(a, b) {
-    return a + b
+  return a + b
 }
 ```
 
@@ -34,7 +34,7 @@ function add(a, b) {
 
 ```javascript
 function fun(arg) {
-    this.name = arg
+  this.name = arg
 }
 //  调用函数
 var x = new fun('Wong')
@@ -52,7 +52,7 @@ console.log(x.name)
 
 ```javascript
 for (let i = 1; i < 10; i++) {
-    a = 0
+  a = 0
 }
 // 块级区域外依旧是a的作用域
 console.log(a)
@@ -62,13 +62,13 @@ console.log(a)
 
 ```javascript
 function fun() {
-    a = 10
+  a = 10
 }
 // 不使用var或者let声明是伪全局变量
 console.log(a)
 ```
 
--   记着要用`var`或者`let`关键字否则会默认全局
+- 记着要用`var`或者`let`关键字否则会默认全局
 
 #### 运用匿名函数
 
@@ -76,7 +76,7 @@ console.log(a)
 
 ```javascript
 var fun = function (a, b) {
-    return a + b
+  return a + b
 }
 // 这时候通过变量来调用，其实是函数对象
 let c = fun(1, 2)
@@ -89,8 +89,8 @@ let c = fun(1, 2)
 ```javascript
 // 匿名函数的参数列表
 var fun = (a, b) => {
-    return a + b
-    // 匿名函数的表达式
+  return a + b
+  // 匿名函数的表达式
 }
 ```
 
@@ -102,12 +102,12 @@ var fun = (a, b) => {
 
 ```javascript
 function foo() {
-    var local = 1
-    // 外部上下文环境
-    function bar() {
-        console.log(local)
-    }
-    return bar
+  var local = 1
+  // 外部上下文环境
+  function bar() {
+    console.log(local)
+  }
+  return bar
 }
 ```
 
@@ -118,10 +118,10 @@ function foo() {
 ```javascript
 var funs = []
 for (let i = 0; i < 3; i++) {
-    // 保存闭包函数
-    funs.push(function () {
-        console.log(1)
-    })
+  // 保存闭包函数
+  funs.push(function () {
+    console.log(1)
+  })
 }
 funs[0]() // 2
 funs[1]() // 2
@@ -133,16 +133,16 @@ funs[2]() // 2
 ```javascript
 var funs = []
 for (let i = 0; i < 3; i++) {
-    // 保存闭包函数
-    funs.push(
-        (function (n) {
-            // 生成的是有稳定外部环境的闭包
-            return () => {
-                console.log(n)
-            }
-        })(i)
-        // 将上下文环境立即不变的传入
-    )
+  // 保存闭包函数
+  funs.push(
+    (function (n) {
+      // 生成的是有稳定外部环境的闭包
+      return () => {
+        console.log(n)
+      }
+    })(i)
+    // 将上下文环境立即不变的传入
+  )
 }
 funs[0]() // 0
 funs[1]() // 1

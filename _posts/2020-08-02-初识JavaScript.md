@@ -15,7 +15,7 @@ categories: JavaScript
 
 ```html
 <script>
-    alert('Hello World!')
+  alert('Hello World!')
 </script>
 ```
 
@@ -32,11 +32,11 @@ categories: JavaScript
 
 ## 浏览器执行
 
--   渲染引擎
+- 渲染引擎
 
 用来解析`HTML`和`CSS`，俗称浏览器的内核。
 
--   `JS`引擎
+- `JS`引擎
 
 浏览器自带的`JavaScript`解释器用来解释代码并在同时执行。
 
@@ -72,11 +72,11 @@ var a = 1000
 
 像其他语言中的常量标识符一样，这是声明常量变量的。声明的变量不可以修改，如果修改则会在**运行阶段报错**。
 
--   多变量声明
+- 多变量声明
 
 ```javascript
 var age = 19,
-    name = 'Wong'
+  name = 'Wong'
 // 同时声明变量并用逗号隔开
 ```
 
@@ -102,7 +102,7 @@ t = 'abc'
 
 有一些不同的是`JavaScript`中内置了一个极值`Infinity`来表示无穷大，它大于任何数。同理，它加上符号的相反数小于任何数字型的值。
 
--   判断非数字
+- 判断非数字
 
 判断是否为数字有一个方法可以使用。如果不是数字返回`true`，如果是数字就返回`false`。
 
@@ -118,12 +118,12 @@ var ok = isNaN(20)
 
 ```javascript
 var a = 18,
-    b = 'abc'
+  b = 'abc'
 var c = b + a
 // 运算结果c为abc18
 ```
 
--   字符串模板拼接
+- 字符串模板拼接
 
 在`ES6`标准中推出了一种新的拼接字符串的方法，这种类似于模板语法的填空法拼接有时候十分使用。
 
