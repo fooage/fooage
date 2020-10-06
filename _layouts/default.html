@@ -7,14 +7,18 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <!-- Set the page's title by post page title or name of this blog. -->
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_CHTML"></script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-          inlineMath: [['$','$']]
-        }
-    });
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
   </script>
   <!-- Use mathjax script to let the pages show the latex formula. -->
   <title>{{ page.title | default: site.title }}</title>
