@@ -28,4 +28,4 @@ plainwhite:
     github: fooage
 
 # This topic is very brief and bright, and I am very grateful to the author samarsault for his silent contribution.
-theme: plainwhite
+remote_theme: plainwhite
