@@ -41,9 +41,9 @@ categories: Golang
 
 ```go
 go func() {
-  for i := 0; i < 10; i++ {
-    fmt.Println("Hello World!")
-  }
+	for i := 0; i < 10; i++ {
+		fmt.Println("Hello World!")
+	}
 }()
 // 这里采用了匿名函数的方法启动线程
 ```

@@ -15,7 +15,7 @@ categories: JavaScript
 
 ```html
 <script>
-  alert('Hello World!')
+  alert('Hello World!');
 </script>
 ```
 
@@ -53,9 +53,9 @@ categories: JavaScript
 这种声明方法是`ES6`标准中新加的，它用于声明局部变量，有了它就有了像其他语言一样的变量作用域，这样使得代码的书写更加的安全，毕竟是解释性语言无法在编译阶段对低级错误进行判断。
 
 ```javascript
-let a = 10
+let a = 10;
 // 同样是自动判断变量类型
-a = 'Wong'
+a = 'Wong';
 // 自动进行类型的变化
 ```
 
@@ -64,7 +64,7 @@ a = 'Wong'
 `var`是其中最早出现的声明变量的方法，这种声明方法声明全局变量，容易发生冲突。除非是需要全局变量的时候都应该采用的是`let`而不它。
 
 ```javascript
-var a = 1000
+var a = 1000;
 // 作为全局变量使用
 ```
 
@@ -76,7 +76,7 @@ var a = 1000
 
 ```javascript
 var age = 19,
-  name = 'Wong'
+  name = 'Wong';
 // 同时声明变量并用逗号隔开
 ```
 
@@ -85,8 +85,8 @@ var age = 19,
 不同的类型的数据在内存中所占的空间也不一样，而且有各种类型对应的操作所以需要规定类型。弱类型语言变量的数据类型不确定，在运行过程中可以显式或者隐式的转换。
 
 ```javascript
-var t = 10
-t = 'abc'
+var t = 10;
+t = 'abc';
 ```
 
 #### 数字型
@@ -107,7 +107,7 @@ t = 'abc'
 判断是否为数字有一个方法可以使用。如果不是数字返回`true`，如果是数字就返回`false`。
 
 ```javascript
-var ok = isNaN(20)
+var ok = isNaN(20);
 ```
 
 #### 字符串型
@@ -118,8 +118,8 @@ var ok = isNaN(20)
 
 ```javascript
 var a = 18,
-  b = 'abc'
-var c = b + a
+  b = 'abc';
+var c = b + a;
 // 运算结果c为abc18
 ```
 
@@ -128,9 +128,9 @@ var c = b + a
 在`ES6`标准中推出了一种新的拼接字符串的方法，这种类似于模板语法的填空法拼接有时候十分使用。
 
 ```javascript
-let name = 'Tom'
-let age = '19'
-let hello = `Welcome ${name} whose age is ${age}!`
+let name = 'Tom';
+let age = '19';
+let hello = `Welcome ${name} whose age is ${age}!`;
 ```
 
 #### 布尔型
@@ -150,7 +150,7 @@ let hello = `Welcome ${name} whose age is ${age}!`
 
 ```javascript
 // 通过前缀取得变量的类型
-let a = typeof 'a'
+let a = typeof 'a';
 ```
 
 #### 其他类型转化为字符串

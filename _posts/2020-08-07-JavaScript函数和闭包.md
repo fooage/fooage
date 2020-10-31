@@ -22,7 +22,7 @@ categories: JavaScript
 ```javascript
 // 关键字加上正常的命名方式
 function add(a, b) {
-  return a + b
+  return a + b;
 }
 ```
 
@@ -34,11 +34,11 @@ function add(a, b) {
 
 ```javascript
 function fun(arg) {
-  this.name = arg
+  this.name = arg;
 }
 //  调用函数
-var x = new fun('Wong')
-console.log(x.name)
+var x = new fun('Wong');
+console.log(x.name);
 // 已经是视为是一个对象了
 ```
 
@@ -52,20 +52,20 @@ console.log(x.name)
 
 ```javascript
 for (let i = 1; i < 10; i++) {
-  a = 0
+  a = 0;
 }
 // 块级区域外依旧是a的作用域
-console.log(a)
+console.log(a);
 ```
 
 但是如果在函数中就一定能够保证作用域么？答案是声明变量的时候要记住规范。
 
 ```javascript
 function fun() {
-  a = 10
+  a = 10;
 }
 // 不使用var或者let声明是伪全局变量
-console.log(a)
+console.log(a);
 ```
 
 - 记着要用`var`或者`let`关键字否则会默认全局
@@ -76,10 +76,10 @@ console.log(a)
 
 ```javascript
 var fun = function (a, b) {
-  return a + b
-}
+  return a + b;
+};
 // 这时候通过变量来调用，其实是函数对象
-let c = fun(1, 2)
+let c = fun(1, 2);
 ```
 
 #### 箭头式函数
@@ -89,9 +89,9 @@ let c = fun(1, 2)
 ```javascript
 // 匿名函数的参数列表
 var fun = (a, b) => {
-  return a + b
+  return a + b;
   // 匿名函数的表达式
-}
+};
 ```
 
 当然这种方式也不是没有区别，**箭头函数没有默认`this`指针**。而且在万物皆对象的`JS`中，它并不能够作为构造方法来使用`new`关键字。
@@ -102,12 +102,12 @@ var fun = (a, b) => {
 
 ```javascript
 function foo() {
-  var local = 1
+  var local = 1;
   // 外部上下文环境
   function bar() {
-    console.log(local)
+    console.log(local);
   }
-  return bar
+  return bar;
 }
 ```
 
@@ -116,37 +116,37 @@ function foo() {
 闭包不能滥用，因为匿名函数如果不是`IIFE`即立即执行的话就会不断引用外部的变量。
 
 ```javascript
-var funs = []
+var funs = [];
 for (let i = 0; i < 3; i++) {
   // 保存闭包函数
   funs.push(function () {
-    console.log(1)
-  })
+    console.log(1);
+  });
 }
-funs[0]() // 2
-funs[1]() // 2
-funs[2]() // 2
+funs[0](); // 2
+funs[1](); // 2
+funs[2](); // 2
 ```
 
 为了让值立即赋值给闭包函数而不是不断地引用，可以使用立即执行的函数来包裹住闭包，并把外部变量通过参数传递给闭包函数。
 
 ```javascript
-var funs = []
+var funs = [];
 for (let i = 0; i < 3; i++) {
   // 保存闭包函数
   funs.push(
     (function (n) {
       // 生成的是有稳定外部环境的闭包
       return () => {
-        console.log(n)
-      }
+        console.log(n);
+      };
     })(i)
     // 将上下文环境立即不变的传入
-  )
+  );
 }
-funs[0]() // 0
-funs[1]() // 1
-funs[2]() // 2
+funs[0](); // 0
+funs[1](); // 1
+funs[2](); // 2
 ```
 
 所以闭包的引用上下文环境要尽可能的稳定，如果做不到那么要采用外套函数的方式让闭包外的环境变成函数参数提供的稳定环境。
