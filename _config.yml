@@ -1,10 +1,9 @@
-title: 被遗忘的时间分支
+title: 被遗忘的世界线
 author: fooage
 email: nullptr.wang@gmail.com
 description: > # This ">" is ignore newlines until the next things.
   This is my personal blog, which records useful and fun things in my life.
 show_excerpts: true # Set to show the excerpts on the homepage.
-
 sass:
   # This is the style sheet file path that applied to the blog.
   sass_dir: _sass
@@ -13,7 +12,7 @@ plainwhite:
   # Set the name of this blog.
   name: fooage
   # Write a motto to summarize.
-  tagline: 温两碗酒，要一碟茴香豆
+  tagline: 1.048596
   # The date format which these pages used.
   date_format: '%b %-d, %Y'
   # Set to true to enable searchbar.
