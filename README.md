@@ -27,6 +27,8 @@ Although a long period of time has passed, I can only call myself a beginner, be
 [![](https://img.shields.io/badge/JavaScript-✔-f7df1e)]()
 [![](https://img.shields.io/badge/Docker-✔-2496ed)]()
 [![](https://img.shields.io/badge/Python-✔-ee4c2c)]()
+[![](https://img.shields.io/badge/MongoDB-✔-47a248)]()
+[![](https://img.shields.io/badge/jQuery-✔-0769ad)]()
 
 ### I want to learn
 
