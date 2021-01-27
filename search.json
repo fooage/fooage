@@ -1,7 +1,7 @@
 ---
 layout: null
 sitemap:
-  exclude: 'yes'
+  exclude: 'no'
 ---
 [
   {% for post in site.posts %}
