@@ -1,10 +1,13 @@
 ---
 ---
 
-// The scss file in the theme is loaded as a style sheet by default.
-@import "plain";
+@import 'plain';
 
-// If the search mode is turned on in config.yml, the style sheet of the search bar will be loaded.
 {% if site.plainwhite.search %}
-  @import "search";
+  @import 'search';
 {% endif %}
+
+{%- if site.plainwhite.dark_mode -%}
+  @import 'toggle';
+  @import 'dark';
+{%- endif -%}
