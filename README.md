@@ -14,7 +14,7 @@ This is my personal blog which recorded the learning process of some algorithms 
 
 Although a long period of time has passed, I can only call myself a beginner, because knowledge is endless. **Men are always young before they die**!
 
-### I had learned
+### I had learned a little
 
 [![](https://img.shields.io/badge/Windows-✔-0078d6)]()
 [![](https://img.shields.io/badge/Go-✔-00add8)]()
@@ -29,13 +29,7 @@ Although a long period of time has passed, I can only call myself a beginner, be
 [![](https://img.shields.io/badge/Python-✔-ee4c2c)]()
 [![](https://img.shields.io/badge/MongoDB-✔-47a248)]()
 [![](https://img.shields.io/badge/jQuery-✔-0769ad)]()
-
-### I want to learn
-
-[![](https://img.shields.io/badge/Redis-✘-dc382d)]()
-[![](https://img.shields.io/badge/Unity-✘-000000)]()
-[![](https://img.shields.io/badge/MySQL-✘-4479a1)]()
-[![](https://img.shields.io/badge/Pytorch-✘-ee4c2c)]()
-[![](https://img.shields.io/badge/JSON-✘-000000)]()
-[![](https://img.shields.io/badge/NodeJs-✘-339933)]()
-[![](https://img.shields.io/badge/Adobe-✘-ff0000)]()
+[![](https://img.shields.io/badge/Redis-✔-dc382d)]()
+[![](https://img.shields.io/badge/MySQL-✔-4479a1)]()
+[![](https://img.shields.io/badge/Pytorch-✔-ee4c2c)]()
+[![](https://img.shields.io/badge/JSON-✔-000000)]()
