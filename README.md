@@ -1,4 +1,4 @@
-I'm **fooage**, a college student from China. Programming is very interesting but there are many difficulties and problems, but I still like it!
+I'm **fooage**, developer from China. Currently intern at ByteDance, hoping to leave a trace in the open source community.
 
 - 🚀 <https://fooage.github.io/fooage/>
 
@@ -6,17 +6,15 @@ This is my personal blog which recorded the learning process of some algorithms 
 
 ## About
 
-- 📕 C++/Golang, some Web and want to learn deep learning
-- 🌱 Work hard in the direction of ACM competition
-- 😊 I want more people to fork and start my repositories
+- 📕 C++/Golang, backend engineer and want to learn deep learning
+- 🌱 Participated in ACM competition at school
 
 ## Skills
 
-Although a long period of time has passed, I can only call myself a beginner, because knowledge is endless. **Men are always young before they die**!
+No matter how much time has passed, I am always a beginner, because knowledge is endless. **Men are always young before they die**.
 
 ### I had learned a little
 
-[![](https://img.shields.io/badge/Windows-✔-0078d6)]()
 [![](https://img.shields.io/badge/Go-✔-00add8)]()
 [![](https://img.shields.io/badge/Markdown-✔-000000)]()
 [![](https://img.shields.io/badge/C++-✔-00599c)]()
@@ -32,4 +30,3 @@ Although a long period of time has passed, I can only call myself a beginner, be
 [![](https://img.shields.io/badge/Redis-✔-dc382d)]()
 [![](https://img.shields.io/badge/MySQL-✔-4479a1)]()
 [![](https://img.shields.io/badge/Pytorch-✔-ee4c2c)]()
-[![](https://img.shields.io/badge/JSON-✔-000000)]()
