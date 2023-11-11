@@ -6,7 +6,7 @@ This is my personal blog which recorded the learning process of some algorithms 
 
 ## About
 
-- 📕 C++/Golang, backend engineer and want to learn deep learning
+- 📕 C++/Golang, backend engineer and want to learn Rust
 - 🌱 Participated in ACM competition at school
 
 ## Skills
